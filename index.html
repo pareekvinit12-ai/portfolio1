@@ -8,6 +8,11 @@
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <style>
+  #typed {
+    display: inline-block;
+    min-width: 250px;
+  }
+
     body {
       font-family: 'Poppins', sans-serif;
       background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
@@ -75,12 +80,13 @@
 </script>
 
 <!-- Hero Section -->
-<section class="flex flex-col items-center justify-center text-center min-h-screen px-6 pt-16 sm:pt-24">
+<section class="flex flex-col items-center justify-center text-center min-h-screen px-6 pt-12 sm:pt-20">
   <p class="text-lg sm:text-xl text-gray-300">Hey, my name is</p>
   <h2 class="text-3xl sm:text-4xl md:text-6xl font-extrabold text-cyan-400 mt-4">VINIT PAREEK</h2>
   <h3 class="text-xl sm:text-2xl mt-2 font-semibold">
-    I'm a <span id="typed" class="text-blue-400"></span>
-  </h3>
+  I'm a <span id="typed" class="text-blue-400 inline-block min-w-[220px]"></span>
+</h3>
+
 
   <div class="mt-6">
     <img src="vinu.jpg" alt="Vinit Pareek" class="w-40 h-40 sm:w-48 sm:h-48 rounded-full border-4 border-cyan-400 shadow-lg hover:scale-105 transition duration-300">
